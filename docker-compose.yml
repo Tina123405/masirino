@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: masirino
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./kharazmi.db:/app/kharazmi.db
+      - ./static:/app/static
+      - ./backups:/app/backups
+    restart: unless-stopped

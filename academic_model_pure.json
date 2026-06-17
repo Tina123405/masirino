@@ -1,0 +1,59 @@
+{
+  "weights": {
+    "study_hours": 0.28,
+    "consistency": 0.22,
+    "prev_grade": 0.18,
+    "review_count": 0.1,
+    "sleep_hours": 0.07,
+    "study_days": 0.05,
+    "attendance": 0.04,
+    "tutor": 0.03,
+    "stress_level": 0.02,
+    "test_anxiety": 0.01
+  },
+  "feature_ranges": {
+    "study_hours": [
+      1,
+      8
+    ],
+    "study_days": [
+      1,
+      7
+    ],
+    "prev_grade": [
+      10,
+      20
+    ],
+    "sleep_hours": [
+      4,
+      10
+    ],
+    "stress_level": [
+      1,
+      5
+    ],
+    "test_anxiety": [
+      1,
+      5
+    ],
+    "consistency": [
+      1,
+      5
+    ],
+    "review_count": [
+      0,
+      10
+    ],
+    "tutor": [
+      0,
+      1
+    ],
+    "attendance": [
+      1,
+      5
+    ]
+  },
+  "trained_at": "2026-06-15T16:32:32.341961",
+  "training_samples": 14,
+  "version": "2.0"
+}
